@@ -1,5 +1,5 @@
 // client/src/services/api.js
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://personal-notes-manager-server.onrender.com/api';
 
 export const api = {
   async getNotes(category = '', search = '') {
